@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    
+}
+body{
+    display: flex;
+    justify-content: center;    
+}
+.CalculatorBtns{
+    width: 35%;
+    height: 570px;
+    text-align: center;    
+}
+.display textarea{
+    width: 78%;
+    margin: 15px 10px;
+    text-align: right;
+    resize: none;
+    padding: 20px 10px 0px 0px;
+    
+}
+button
+{
+    padding: 20px;
+    margin: 0px 5px 10px;
+    background-color: cadetblue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    box-shadow: 0 8px 12px 0 orange,0.8;
+}
+button:hover
+{
+    background-color: rgb(10, 100, 55);
+    box-shadow: 0 4px 8px 0 darkmagenta;
+    color: whitesmoke;
+}
+#decimal
+{
+    font-weight: 900;
+}
