@@ -75,7 +75,7 @@ while(true)
     score: game_score,
   },
   )
-  function bubbleSort(scores)
+  function bubbleSort(arr)
 {
 	var i, j;
 	var len = arr.length;
@@ -85,10 +85,10 @@ while(true)
 		isSwapped = false;
 		for(j = 0; j < len; j++)
 		{
-			if(scores[j] > scores[j + 1]){
-			var temp = scores[j]
-			scores[j] = scores[j+1];
-			scores[j+1] = temp;
+			if(arr[j] > arr[j + 1]){
+			var temp = arr[j]
+			arr[j] = arr[j+1];
+			arr[j+1] = temp;
 			isSwapped = true;
 		}
 	}
@@ -97,7 +97,7 @@ while(true)
 		break;
 	}
   }
-}
+} bubbleSort(scores);
   console.log("Highest Scorer is: "+highscore.name+" "+"with"+" "+highscore.score+" "+"points");
   console.log(chalk.bold.bgMagenta("---Scoreboard---\n"))
   for(var j=0;j<scores.length;j++)
