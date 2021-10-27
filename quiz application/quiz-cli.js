@@ -32,11 +32,6 @@ while(true)
       score: 1,
     },
     {
-      question: "What is Lady Gaga's real name?",
-      answer: "Stefani Joanne Angelina Germanotta",
-      score: 1,
-    },
-    {
       question: "Which author wrote the ‘Winnie-the-Pooh’ books?",
       answer: "A A Milne",
       score: 1,
